@@ -35,6 +35,7 @@ export default function header({ route }) {
         size={28}
         style={{
           width: "10%",
+          left: -10,
         }}
         onPress={() => route.navigate("Home")}
       />

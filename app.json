@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "partyApp",
+    "name": "partyApp UI",
     "slug": "partyApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "(User Interface)-\n All right reserved to the creator (Pathum Tzoo) and Unauthorized use by any party for marketing, commercial, redesigning, re-post or other purpose is strictly prohibited.",
+    "githubUrl": "https://github.com/rajitha302/partyApp"
   }
 }

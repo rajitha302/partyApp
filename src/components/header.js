@@ -3,6 +3,9 @@ import { View, StyleSheet } from "react-native";
 import { Searchbar, IconButton, Button, Title } from "react-native-paper";
 
 const styles = StyleSheet.create({
+  container: {
+    width: "100%",
+  },
   searchbar: {
     borderRadius: 10,
     flexDirection: "row-reverse",
@@ -28,13 +31,14 @@ const styles = StyleSheet.create({
 
 export default function header({ route }) {
   return (
-    <View>
+    <View style={styles.container}>
       <IconButton
         icon="arrow-left"
         color={"#fff"}
         size={28}
         style={{
           width: "10%",
+          left: -10,
         }}
         onPress={() => console.log("Pressed")}
       />
